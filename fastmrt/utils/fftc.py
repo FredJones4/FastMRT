@@ -54,7 +54,7 @@ def ifft2c_tensor(data : torch.Tensor, fftshift_dim: Optional[Union[int, Tuple[i
 
     return data
 
-def fft2c_numpy(data : np.complex, fftshift_dim: Optional[Union[int, Tuple[int, int]]] = (-2,-1)) -> np.complex:
+def fft2c_numpy(data : np.complex128, fftshift_dim: Optional[Union[int, Tuple[int, int]]] = (-2,-1)) -> np.complex128:
     """
         Apply centered 2 dimensional Fast Fourier Transform for numpy data.
 
@@ -74,7 +74,7 @@ def fft2c_numpy(data : np.complex, fftshift_dim: Optional[Union[int, Tuple[int, 
 
     return data.astype(np.complex64)
 
-def ifft2c_numpy(data : np.complex, fftshift_dim: Optional[Union[int, Tuple[int,...]]] = (-2,-1)) -> np.complex:
+def ifft2c_numpy(data : np.complex128, fftshift_dim: Optional[Union[int, Tuple[int,...]]] = (-2,-1)) -> np.complex128:
     """
         Apply centered 2-dimensional Inverse Fast Fourier Transform for numpy data.
 

@@ -103,16 +103,16 @@ class BaseModule(pl.LightningModule):
         self.is_log_tmap_metrics = is_log_tmap_metrics
         self.is_log_media_metrics = is_log_media_metrics
         self.model = model
-
-    def training_epoch_end(self, train_logs: Sequence[Dict]) -> None:
+# was training_epoch_end
+    def on_train_epoch_end(self, train_logs: Sequence[Dict]) -> None:
         """log train loss after training epoch end.
         """
         train_loss = torch.tensor(0, dtype=torch.float32, device=self.device)
         for log in train_logs:
             train_loss += log["loss"]
         self.log("loss", train_loss / len(train_logs), on_epoch=True, on_step=False)
-
-    def validation_epoch_end(self, val_logs: Sequence[Dict]) -> None:
+# changed validation_epoch_end(self, val_logs: Sequence[Dict]) -> None:
+    def on_validation_epoch_end(self) -> None:
 
         # save image(amplitude) metrics
         if self.is_log_image_metrics is True:

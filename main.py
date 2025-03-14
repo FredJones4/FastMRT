@@ -3,10 +3,40 @@ import pytorch_lightning as pl
 from pytorch_lightning import loggers
 from argparse import ArgumentParser
 import yaml
-from yamlinclude import YamlIncludeConstructor
+# from yamlinclude import YamlIncludeConstructor
 import thop
 import os
 from torchvision.transforms import Compose
+# from yamlinclude import YamlIncludeConstructor
+import os
+import yaml
+
+class Loader(yaml.SafeLoader):
+    def __init__(self, stream):
+        self._root = os.path.split(stream.name)[0]
+        super(Loader, self).__init__(stream)
+
+def construct_include(loader, node):
+    filename = os.path.join(loader._root, loader.construct_scalar(node))
+    with open(filename, 'r') as f:
+        return yaml.load(f, Loader)
+
+# Define inherit_constructor
+def inherit_constructor(loader, node):
+    def merge_dict(dict1, dict2):
+        for key in dict2:
+            if key in dict1 and isinstance(dict1[key], dict) and isinstance(dict2[key], dict):
+                merge_dict(dict1[key], dict2[key])
+            else:
+                dict1[key] = dict2[key]
+
+    kwargs = loader.construct_mapping(node, deep=True)
+    merge = kwargs.pop("_BASE_")
+    merge_dict(merge, kwargs)
+    return merge
+
+Loader.add_constructor('!include', construct_include)
+Loader.add_constructor('!inherit', inherit_constructor)
 
 from fastmrt.data.mask import RandomMaskFunc, EquiSpacedMaskFunc, apply_mask
 from fastmrt.data.transforms import FastmrtDataTransform2D
@@ -80,7 +110,7 @@ def build_args():
 
     # load directory config
     core_args = parser.parse_args()
-    YamlIncludeConstructor.add_to_loader_class(loader_class=yaml.FullLoader, base_dir="./configs")
+    # YamlIncludeConstructor.add_to_loader_class(loader_class=yaml.FullLoader, base_dir="./configs")
     yaml.add_constructor("!inherit", inherit_constructor)
 
     # load net config (hypeparameters)
@@ -88,7 +118,9 @@ def build_args():
     assert os.path.exists(cfgs_dir), \
         f"You try to run `{core_args.net}`, but there is no config file named `{core_args.net}.yaml` on your config directory ({core_args.cfg_dir})"
     with open(cfgs_dir) as fconfig:
-        cfgs = yaml.load(fconfig.read(), Loader=yaml.FullLoader)
+        # cfgs = yaml.load(fconfig.read(), Loader=yaml.FullLoader)
+        cfgs = yaml.load(fconfig, Loader=Loader)
+
 
     # collect all configs and turn to args
     args, flat_cfgs = parse_args_from_dict(cfgs, parser)
@@ -188,8 +220,9 @@ class FastmrtRunner:
 
         # create Traner
         self.trainer = pl.Trainer(
-            gpus=args.gpus,
-            strategy='ddp' if len(args.gpus) > 1 else None,
+            devices=args.gpus,
+            accelerator='gpu', # change
+            strategy='ddp' if len(args.gpus) > 1 else 'auto',
             enable_progress_bar=False,
             max_epochs=args.model_max_epochs,
             logger=self.logger

@@ -1,0 +1,504 @@
+Script started on 2025-03-13 18:54:20-06:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="97" LINES="36"]
+]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ /bin/python3 /home/christianhales/.vscode/extensions/ms-python.python-2025.0.0/python_files/printEnvVariablesToFile.py /home/christianhales/.vscode/extensions/ms-python.python-2025.0.0/python_files/deactivate/bash/envVars.txt[A[Agit remote -v[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/bin/python3 /home/christianhales/.vscode/extensions/ms-python.python-2025.0.0/python_files/printEnvVariablesToFile.py /home/christianhales/.vscode/extensions/ms-python.python-2025.0.0/python_files/deactivate/bash/envVars.txt
+]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ /bin/python3 /home/christianhales/.vscode/extensions/ms-python.python-2025.0.0/python_files/printEnvVariablesToFile.py /home/christianhales/.vscode/extensions/ms-python.python-2025.0.0/python_files/deactivate/bash/envVars.txt[A[Agit remote -v[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/home/christianhales/code_2025/FastMRT/.venv/bin/python /home/christianhales/code_2025/FastMRT/main.py[Agit remote -v[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/bin/python3 /home/christianhales/.vscode/extensions/ms-python.python-2025.0.0/python_files/printEnvVariablesToFile.py /home/christianhales/.vscode/extensions/ms-python.python-2025.0.0/python_files/deactivate/bash/envVars.txt[A[A[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C
+]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ python main.py --net zf --stage train 
+
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 32, in <module>
+    from fastmrt.modules.model_module import CasNetModule, KDNetModule
+  File "/home/christianhales/code_2025/FastMRT/fastmrt/modules/model_module.py", line 11, in <module>
+    from fastmrt.modules.base_module import FastmrtModule
+  File "/home/christianhales/code_2025/FastMRT/fastmrt/modules/base_module.py", line 26, in <module>
+    import wandb
+ModuleNotFoundError: No module named 'wandb'
+]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ 
+]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ clear
+[H[2J[3J]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ clearpython main.py --net zf --stage train clear[K[K.venv/bin/sz_[K[K[Kactivate
+bash: .venv/bin/activate: Permission denied
+]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ source .venv/bin/activate
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ source .venv/bin/activate[7P.venv/bin/activateclear[Kpython main.py --net zf --stage train  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.venv/bin/activatesource .venv/bin/activate[Kpip install wandb
+Collecting wandb
+  Downloading wandb-0.19.8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (10 kB)
+Collecting click!=8.0.0,>=7.1 (from wandb)
+  Downloading click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+Collecting docker-pycreds>=0.4.0 (from wandb)
+  Downloading docker_pycreds-0.4.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Requirement already satisfied: eval-type-backport in ./.venv/lib/python3.9/site-packages (from wandb) (0.2.2)
+Collecting gitpython!=3.1.29,>=1.0.0 (from wandb)
+  Downloading GitPython-3.1.44-py3-none-any.whl.metadata (13 kB)
+Collecting platformdirs (from wandb)
+  Using cached platformdirs-4.3.6-py3-none-any.whl.metadata (11 kB)
+Collecting protobuf!=4.21.0,!=5.28.0,<6,>=3.15.0 (from wandb)
+  Downloading protobuf-5.29.3-cp38-abi3-manylinux2014_x86_64.whl.metadata (592 bytes)
+Collecting psutil>=5.0.0 (from wandb)
+  Using cached psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (22 kB)
+Requirement already satisfied: pydantic<3,>=2.6 in ./.venv/lib/python3.9/site-packages (from wandb) (2.10.6)
+Requirement already satisfied: pyyaml in ./.venv/lib/python3.9/site-packages (from wandb) (6.0.2)
+Requirement already satisfied: requests<3,>=2.0.0 in ./.venv/lib/python3.9/site-packages (from wandb) (2.32.3)
+Collecting sentry-sdk>=2.0.0 (from wandb)
+  Downloading sentry_sdk-2.22.0-py2.py3-none-any.whl.metadata (10 kB)
+Collecting setproctitle (from wandb)
+  Downloading setproctitle-1.3.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (10 kB)
+Requirement already satisfied: setuptools in ./.venv/lib/python3.9/site-packages (from wandb) (58.1.0)
+Requirement already satisfied: typing-extensions<5,>=4.4 in ./.venv/lib/python3.9/site-packages (from wandb) (4.12.2)
+Requirement already satisfied: six>=1.4.0 in ./.venv/lib/python3.9/site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.29,>=1.0.0->wandb)
+  Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+Requirement already satisfied: annotated-types>=0.6.0 in ./.venv/lib/python3.9/site-packages (from pydantic<3,>=2.6->wandb) (0.7.0)
+Requirement already satisfied: pydantic-core==2.27.2 in ./.venv/lib/python3.9/site-packages (from pydantic<3,>=2.6->wandb) (2.27.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./.venv/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in ./.venv/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./.venv/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in ./.venv/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb)
+  Downloading smmap-5.0.2-py3-none-any.whl.metadata (4.3 kB)
+Downloading wandb-0.19.8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (20.8 MB)
+[?25l   [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/20.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [38;2;249;38;114m━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.9/20.8 MB[0m [31m25.1 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m7.1/20.8 MB[0m [31m18.9 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8.7/20.8 MB[0m [31m15.7 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━[0m [32m10.0/20.8 MB[0m [31m13.1 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [32m10.7/20.8 MB[0m [31m11.6 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━[0m [32m11.5/20.8 MB[0m [31m10.0 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━[0m [32m12.6/20.8 MB[0m [31m8.9 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━[0m [32m13.1/20.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [32m13.9/20.8 MB[0m [31m7.7 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━[0m [32m14.4/20.8 MB[0m [31m7.2 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━[0m [32m14.7/20.8 MB[0m [31m6.9 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━[0m [32m15.2/20.8 MB[0m [31m6.3 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━[0m [32m15.7/20.8 MB[0m [31m6.0 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━[0m [32m16.3/20.8 MB[0m [31m5.7 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━[0m [32m16.5/20.8 MB[0m [31m5.6 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━[0m [32m17.3/20.8 MB[0m [31m5.3 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━[0m [32m17.8/20.8 MB[0m [31m5.2 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━[0m [32m18.6/20.8 MB[0m [31m5.1 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━[0m [32m19.4/20.8 MB[0m [31m5.1 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m20.4/20.8 MB[0m [31m5.0 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m20.8/20.8 MB[0m [31m4.9 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading click-8.1.8-py3-none-any.whl (98 kB)
+Downloading docker_pycreds-0.4.0-py2.py3-none-any.whl (9.0 kB)
+Downloading GitPython-3.1.44-py3-none-any.whl (207 kB)
+Downloading protobuf-5.29.3-cp38-abi3-manylinux2014_x86_64.whl (319 kB)
+Using cached psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (277 kB)
+Downloading sentry_sdk-2.22.0-py2.py3-none-any.whl (325 kB)
+Using cached platformdirs-4.3.6-py3-none-any.whl (18 kB)
+Downloading setproctitle-1.3.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (30 kB)
+Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+Downloading smmap-5.0.2-py3-none-any.whl (24 kB)
+Installing collected packages: smmap, setproctitle, sentry-sdk, psutil, protobuf, platformdirs, docker-pycreds, click, gitdb, gitpython, wandb
+Successfully installed click-8.1.8 docker-pycreds-0.4.0 gitdb-4.0.12 gitpython-3.1.44 platformdirs-4.3.6 protobuf-5.29.3 psutil-7.0.0 sentry-sdk-2.22.0 setproctitle-1.3.5 smmap-5.0.2 wandb-0.19.8
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ pip install wandbsource .venv/bin/activate[7P.venv/bin/activateclear[Kpython main.py --net zf --stage train  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 357, in <module>
+    args, flat_cfgs, source_cfgs = build_args()
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 107, in build_args
+    cfgs = yaml.load(fconfig.read(), Loader=yaml.FullLoader)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/yaml/constructor.py", line 51, in get_single_data
+    return self.construct_document(node)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/yaml/constructor.py", line 55, in construct_document
+    data = self.construct_object(node)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/yaml/constructor.py", line 100, in construct_object
+    data = constructor(self, node)
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 51, in inherit_constructor
+    kwargs = loader.construct_mapping(node, deep=True)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/yaml/constructor.py", line 218, in construct_mapping
+    return super().construct_mapping(node, deep=deep)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/yaml/constructor.py", line 143, in construct_mapping
+    value = self.construct_object(value_node, deep=deep)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/yaml/constructor.py", line 100, in construct_object
+    data = constructor(self, node)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/yaml/constructor.py", line 427, in construct_undefined
+    raise ConstructorError(None, None,
+yaml.constructor.ConstructorError: could not determine a constructor for the tag '!include'
+  in "<unicode string>", line 2, column 9:
+    _BASE_: !include _base_.yaml
+            ^
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ python main.py --net zf --stage train  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 10, in <module>
+    from yamlinclude import YamlIncludeConstructor
+ModuleNotFoundError: No module named 'yamlinclude'
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ pip install y[Kpyyaml-include
+Requirement already satisfied: pyyaml-include in ./.venv/lib/python3.9/site-packages (2.2)
+Requirement already satisfied: PyYAML~=6.0 in ./.venv/lib/python3.9/site-packages (from pyyaml-include) (6.0.2)
+Requirement already satisfied: fsspec>=2021.04.0 in ./.venv/lib/python3.9/site-packages (from pyyaml-include) (2025.3.0)
+Requirement already satisfied: typing-extensions in ./.venv/lib/python3.9/site-packages (from pyyaml-include) (4.12.2)
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ pip install pyyaml-includeython main.py --net zf --stage train  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 10, in <module>
+    from yamlinclude import YamlIncludeConstructor
+ModuleNotFoundError: No module named 'yamlinclude'
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ python main.py --net zf --stage train  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 359, in <module>
+    args, flat_cfgs, source_cfgs = build_args()
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 108, in build_args
+    cfgs = yaml.load(fconfig, Loader=Loader)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/yaml/constructor.py", line 51, in get_single_data
+    return self.construct_document(node)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/yaml/constructor.py", line 55, in construct_document
+    data = self.construct_object(node)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/yaml/constructor.py", line 100, in construct_object
+    data = constructor(self, node)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/yaml/constructor.py", line 427, in construct_undefined
+    raise ConstructorError(None, None,
+yaml.constructor.ConstructorError: could not determine a constructor for the tag '!inherit'
+  in "./configs/zf.yaml", line 1, column 1
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ python main.py --net zf --stage train  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/albumentations/core/validation.py", line 43, in _validate_parameters
+    config = schema_cls(**{k: v for k, v in full_kwargs.items() if k in param_names})
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pydantic/main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InitSchema
+size
+  Field required [type=missing, input_value={'scale': (0.7, 1.0), 'ra...rpolation': 0, 'p': 1.0}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 374, in <module>
+    runner = FastmrtRunner(args, flat_cfgs, source_cfgs)
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 161, in __init__
+    self.augs_func = ComplexAugs(
+  File "/home/christianhales/code_2025/FastMRT/fastmrt/data/augs.py", line 74, in __init__
+    self.crop = A.RandomResizedCrop(height=height, width=width, scale=crop_scale)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/albumentations/core/validation.py", line 78, in custom_init
+    validated_kwargs = cls._validate_parameters(
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/albumentations/core/validation.py", line 47, in _validate_parameters
+    raise ValueError(str(e)) from e
+ValueError: 1 validation error for InitSchema
+size
+  Field required [type=missing, input_value={'scale': (0.7, 1.0), 'ra...rpolation': 0, 'p': 1.0}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ python main.py --net zf --stage train  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 374, in <module>
+    runner = FastmrtRunner(args, flat_cfgs, source_cfgs)
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 161, in __init__
+    self.augs_func = ComplexAugs(
+  File "/home/christianhales/code_2025/FastMRT/fastmrt/data/augs.py", line 77, in __init__
+    self.flip = A.Flip()
+AttributeError: module 'albumentations' has no attribute 'Flip'
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ python main.py --net zf --stage train  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[34m[1mwandb[0m: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+[34m[1mwandb[0m: (1) Create a W&B account
+[34m[1mwandb[0m: (2) Use an existing W&B account
+[34m[1mwandb[0m: (3) Don't visualize my results
+[34m[1mwandb[0m: Enter your choice: 2
+[34m[1mwandb[0m: You chose 'Use an existing W&B account'
+[34m[1mwandb[0m: Logging into wandb.ai. (Learn how to deploy a W&B server locally: https://wandb.me/wandb-server)
+[34m[1mwandb[0m: You can find your API key in your browser here: https://wandb.ai/authorize
+[34m[1mwandb[0m: Paste an API key from your profile and hit enter, or press ctrl+c to quit: 
+[34m[1mwandb[0m: No netrc file found, creating one.
+[34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /home/christianhales/.netrc
+[34m[1mwandb[0m: Currently logged in as: [33mcmhales[0m ([33mska-slam[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+[34m[1mwandb[0m: [33mWARNING[0m Path ./logs/wandb/ wasn't writable, using system temp directory.
+[34m[1mwandb[0m: Tracking run with wandb version 0.19.8
+[34m[1mwandb[0m: Run data is saved locally in [35m[1m/tmp/wandb/run-20250313_190942-folujm69[0m
+[34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+[34m[1mwandb[0m: Syncing run [33mexp0617-1|zf|test|exvivo|2X[0m
+[34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/ska-slam/ZF[0m
+[34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/ska-slam/ZF/runs/folujm69[0m
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 374, in <module>
+    runner = FastmrtRunner(args, flat_cfgs, source_cfgs)
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 222, in __init__
+    self.trainer = pl.Trainer(
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/utilities/argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'gpus'
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mexp0617-1|zf|test|exvivo|2X[0m at: [34mhttps://wandb.ai/ska-slam/ZF/runs/folujm69[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../../../tmp/wandb/run-20250313_190942-folujm69/logs[0m
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ python main.py --net zf --stage train  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[34m[1mwandb[0m: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+[34m[1mwandb[0m: Currently logged in as: [33mcmhales[0m ([33mska-slam[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+[34m[1mwandb[0m: [33mWARNING[0m Path ./logs/wandb/ wasn't writable, using system temp directory.
+[34m[1mwandb[0m: Tracking run with wandb version 0.19.8
+[34m[1mwandb[0m: Run data is saved locally in [35m[1m/tmp/wandb/run-20250313_191145-djsvpgiv[0m
+[34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+[34m[1mwandb[0m: Syncing run [33mexp0617-1|zf|test|exvivo|2X[0m
+[34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/ska-slam/ZF[0m
+[34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/ska-slam/ZF/runs/djsvpgiv[0m
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 375, in <module>
+    runner = FastmrtRunner(args, flat_cfgs, source_cfgs)
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 222, in __init__
+    self.trainer = pl.Trainer(
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/utilities/argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 396, in __init__
+    self._accelerator_connector = _AcceleratorConnector(
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 131, in __init__
+    self._check_config_and_set_final_flags(
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py", line 194, in _check_config_and_set_final_flags
+    raise ValueError(
+ValueError: You selected an invalid strategy name: `strategy=None`. It must be either a string or an instance of `pytorch_lightning.strategies.Strategy`. Example choices: auto, ddp, ddp_spawn, deepspeed, ... Find a complete list of options in our documentation at https://lightning.ai
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mexp0617-1|zf|test|exvivo|2X[0m at: [34mhttps://wandb.ai/ska-slam/ZF/runs/djsvpgiv[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../../../tmp/wandb/run-20250313_191145-djsvpgiv/logs[0m
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ python main.py --net zf --stage train  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[34m[1mwandb[0m: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+[34m[1mwandb[0m: Currently logged in as: [33mcmhales[0m ([33mska-slam[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+[34m[1mwandb[0m: [33mWARNING[0m Path ./logs/wandb/ wasn't writable, using system temp directory.
+[34m[1mwandb[0m: Tracking run with wandb version 0.19.8
+[34m[1mwandb[0m: Run data is saved locally in [35m[1m/tmp/wandb/run-20250313_191226-zdf8pt3s[0m
+[34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+[34m[1mwandb[0m: Syncing run [33mexp0617-1|zf|test|exvivo|2X[0m
+[34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/ska-slam/ZF[0m
+[34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/ska-slam/ZF/runs/zdf8pt3s[0m
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 376, in <module>
+    runner.run()
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 237, in run
+    self.trainer.fit(self.model_module, datamodule=self.data_module)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 539, in fit
+    call._call_and_handle_interrupt(
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 47, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 575, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 932, in _run
+    _verify_loop_configurations(self)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/configuration_validator.py", line 36, in _verify_loop_configurations
+    __verify_train_val_loop_configuration(trainer, model)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/configuration_validator.py", line 77, in __verify_train_val_loop_configuration
+    raise NotImplementedError(
+NotImplementedError: Support for `training_epoch_end` has been removed in v2.0.0. `FastmrtModule` implements this method. You can use the `on_train_epoch_end` hook instead. To access outputs, save them in-memory as instance attributes. You can find migration examples in https://github.com/Lightning-AI/lightning/pull/16520.
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mexp0617-1|zf|test|exvivo|2X[0m at: [34mhttps://wandb.ai/ska-slam/ZF/runs/zdf8pt3s[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../../../tmp/wandb/run-20250313_191226-zdf8pt3s/logs[0m
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ python main.py --net zf --stage train  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+\ 
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[34m[1mwandb[0m: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+[34m[1mwandb[0m: Currently logged in as: [33mcmhales[0m ([33mska-slam[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+[34m[1mwandb[0m: [33mWARNING[0m Path ./logs/wandb/ wasn't writable, using system temp directory.
+[34m[1mwandb[0m: Tracking run with wandb version 0.19.8
+[34m[1mwandb[0m: Run data is saved locally in [35m[1m/tmp/wandb/run-20250313_191356-d2erjuym[0m
+[34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+[34m[1mwandb[0m: Syncing run [33mexp0617-1|zf|test|exvivo|2X[0m
+[34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/ska-slam/ZF[0m
+[34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/ska-slam/ZF/runs/d2erjuym[0m
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 376, in <module>
+    runner.run()
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 237, in run
+    self.trainer.fit(self.model_module, datamodule=self.data_module)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 539, in fit
+    call._call_and_handle_interrupt(
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 47, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 575, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 932, in _run
+    _verify_loop_configurations(self)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/configuration_validator.py", line 36, in _verify_loop_configurations
+    __verify_train_val_loop_configuration(trainer, model)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/configuration_validator.py", line 84, in __verify_train_val_loop_configuration
+    raise NotImplementedError(
+NotImplementedError: Support for `validation_epoch_end` has been removed in v2.0.0. `FastmrtModule` implements this method. You can use the `on_validation_epoch_end` hook instead. To access outputs, save them in-memory as instance attributes. You can find migration examples in https://github.com/Lightning-AI/lightning/pull/16520.
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mexp0617-1|zf|test|exvivo|2X[0m at: [34mhttps://wandb.ai/ska-slam/ZF/runs/d2erjuym[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../../../tmp/wandb/run-20250313_191356-d2erjuym/logs[0m
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ 
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ python main.py --net zf --stage train  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[34m[1mwandb[0m: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+[34m[1mwandb[0m: Currently logged in as: [33mcmhales[0m ([33mska-slam[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+[34m[1mwandb[0m: [33mWARNING[0m Path ./logs/wandb/ wasn't writable, using system temp directory.
+[34m[1mwandb[0m: Tracking run with wandb version 0.19.8
+[34m[1mwandb[0m: Run data is saved locally in [35m[1m/tmp/wandb/run-20250313_191518-wgir2d5a[0m
+[34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+[34m[1mwandb[0m: Syncing run [33mexp0617-1|zf|test|exvivo|2X[0m
+[34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/ska-slam/ZF[0m
+[34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/ska-slam/ZF/runs/wgir2d5a[0m
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 376, in <module>
+    runner.run()
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 237, in run
+    self.trainer.fit(self.model_module, datamodule=self.data_module)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 539, in fit
+    call._call_and_handle_interrupt(
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 47, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 575, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 958, in _run
+    self.strategy.setup(self)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 159, in setup
+    self.setup_optimizers(trainer)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 139, in setup_optimizers
+    self.optimizers, self.lr_scheduler_configs = _init_optimizers_and_lr_schedulers(self.lightning_module)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/core/optimizer.py", line 180, in _init_optimizers_and_lr_schedulers
+    optim_conf = call._call_lightning_module_hook(model.trainer, "configure_optimizers", pl_module=model)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 171, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/home/christianhales/code_2025/FastMRT/fastmrt/modules/base_module.py", line 475, in configure_optimizers
+    optimizer = torch.optim.AdamW(self.parameters(),
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/torch/optim/adamw.py", line 100, in __init__
+    super().__init__(params, defaults)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/torch/optim/optimizer.py", line 372, in __init__
+    raise ValueError("optimizer got an empty parameter list")
+ValueError: optimizer got an empty parameter list
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mexp0617-1|zf|test|exvivo|2X[0m at: [34mhttps://wandb.ai/ska-slam/ZF/runs/wgir2d5a[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../../../tmp/wandb/run-20250313_191518-wgir2d5a/logs[0m
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ python main.py --net zf --stage train  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@ca --stage train  [A(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs --stage train [A(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn --stage train [A(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce --stage train [A(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct --stage tra[1@i[A(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --stage tr[1@a[A(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.Conv2d'>.
+[INFO] Register count_normalization() for <class 'torch.nn.modules.batchnorm.BatchNorm2d'>.
+[INFO] Register count_relu() for <class 'torch.nn.modules.activation.LeakyReLU'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.container.Sequential'>.
+[34m[1mwandb[0m: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+[34m[1mwandb[0m: Currently logged in as: [33mcmhales[0m ([33mska-slam[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+[34m[1mwandb[0m: [33mWARNING[0m Path ./logs/wandb/ wasn't writable, using system temp directory.
+[34m[1mwandb[0m: Tracking run with wandb version 0.19.8
+[34m[1mwandb[0m: Run data is saved locally in [35m[1m/tmp/wandb/run-20250313_191654-lycyok3d[0m
+[34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+[34m[1mwandb[0m: Syncing run [33mexp0617-3|casnet|test|exvivo|2X[0m
+[34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/ska-slam/CASNET[0m
+[34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/ska-slam/CASNET/runs/lycyok3d[0m
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+
+  | Name  | Type   | Params | Mode 
+-----------------------------------------
+0 | model | CasNet | 99.4 K | train
+-----------------------------------------
+99.4 K    Trainable params
+0         Non-trainable params
+99.4 K    Total params
+0.398     Total estimated model params size (MB)
+118       Modules in train mode
+0         Modules in eval mode
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/utilities/data.py:106: Total length of `DataLoader` across ranks is zero. Please make sure this was your intention.
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 376, in <module>
+    runner.run()
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 237, in run
+    self.trainer.fit(self.model_module, datamodule=self.data_module)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 539, in fit
+    call._call_and_handle_interrupt(
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 47, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 575, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 982, in _run
+    results = self._run_stage()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1026, in _run_stage
+    self.fit_loop.run()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/loops/fit_loop.py", line 208, in run
+    self.setup_data()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/loops/fit_loop.py", line 237, in setup_data
+    train_dataloader = _request_dataloader(source)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 326, in _request_dataloader
+    return data_source.dataloader()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 293, in dataloader
+    return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 193, in _call_lightning_datamodule_hook
+    return fn(*args, **kwargs)
+  File "/home/christianhales/code_2025/FastMRT/fastmrt/modules/data_module.py", line 41, in train_dataloader
+    return self._create_dataloader(stage='train', transform=self.train_transform)
+  File "/home/christianhales/code_2025/FastMRT/fastmrt/modules/data_module.py", line 85, in _create_dataloader
+    dataloader = DataLoader(
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/lightning_fabric/utilities/data.py", line 325, in wrapper
+    init(obj, *args, **kwargs)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 383, in __init__
+    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/torch/utils/data/sampler.py", line 165, in __init__
+    raise ValueError(
+ValueError: num_samples should be a positive integer value, but got num_samples=0
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mexp0617-3|casnet|test|exvivo|2X[0m at: [34mhttps://wandb.ai/ska-slam/CASNET/runs/lycyok3d[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../../../tmp/wandb/run-20250313_191654-lycyok3d/logs[0m
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ python main.py --net casnet  --stage train -os
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.Conv2d'>.
+[INFO] Register count_normalization() for <class 'torch.nn.modules.batchnorm.BatchNorm2d'>.
+[INFO] Register count_relu() for <class 'torch.nn.modules.activation.LeakyReLU'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.container.Sequential'>.
+[34m[1mwandb[0m: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+[34m[1mwandb[0m: Currently logged in as: [33mcmhales[0m ([33mska-slam[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+[34m[1mwandb[0m: [33mWARNING[0m Path ./logs/wandb/ wasn't writable, using system temp directory.
+[34m[1mwandb[0m: Tracking run with wandb version 0.19.8
+[34m[1mwandb[0m: Run data is saved locally in [35m[1m/tmp/wandb/run-20250313_191943-fy2axd7h[0m
+[34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+[34m[1mwandb[0m: Syncing run [33mexp0617-3|casnet|test|exvivo|2X[0m
+[34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/ska-slam/CASNET[0m
+[34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/ska-slam/CASNET/runs/fy2axd7h[0m
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+
+  | Name  | Type   | Params | Mode 
+-----------------------------------------
+0 | model | CasNet | 99.4 K | train
+-----------------------------------------
+99.4 K    Trainable params
+0         Non-trainable params
+99.4 K    Total params
+0.398     Total estimated model params size (MB)
+118       Modules in train mode
+0         Modules in eval mode
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/utilities/data.py:106: Total length of `DataLoader` across ranks is zero. Please make sure this was your intention.
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 376, in <module>
+    runner.run()
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 237, in run
+    self.trainer.fit(self.model_module, datamodule=self.data_module)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 539, in fit
+    call._call_and_handle_interrupt(
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 47, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 575, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 982, in _run
+    results = self._run_stage()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1026, in _run_stage
+    self.fit_loop.run()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/loops/fit_loop.py", line 208, in run
+    self.setup_data()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/loops/fit_loop.py", line 237, in setup_data
+    train_dataloader = _request_dataloader(source)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 326, in _request_dataloader
+    return data_source.dataloader()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 293, in dataloader
+    return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 193, in _call_lightning_datamodule_hook
+    return fn(*args, **kwargs)
+  File "/home/christianhales/code_2025/FastMRT/fastmrt/modules/data_module.py", line 41, in train_dataloader
+    return self._create_dataloader(stage='train', transform=self.train_transform)
+  File "/home/christianhales/code_2025/FastMRT/fastmrt/modules/data_module.py", line 85, in _create_dataloader
+    dataloader = DataLoader(
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/lightning_fabric/utilities/data.py", line 325, in wrapper
+    init(obj, *args, **kwargs)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 383, in __init__
+    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
+  File "/home/christianhales/code_2025/Fas

@@ -71,8 +71,14 @@ class ComplexAugs:
         self.compose_num = compose_num
 
         # define augments
-        self.crop = A.RandomResizedCrop(height=height, width=width, scale=crop_scale)
-        self.flip = A.Flip()
+        # self.crop = A.RandomResizedCrop(height=height, width=width, scale=crop_scale)
+        self.crop = A.RandomResizedCrop(size=(height, width), scale=crop_scale)
+
+        self.flip = A.OneOf([
+            A.HorizontalFlip(p=0.5),
+            A.VerticalFlip(p=0.5)
+        ], p=1.0)
+
         self.rotate = A.RandomRotate90()
         self.blur = A.GaussianBlur(blur_limit=blur_limit)
 
