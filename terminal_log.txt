@@ -501,4 +501,36 @@ Traceback (most recent call last):
     init(obj, *args, **kwargs)
   File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 383, in __init__
     sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
-  File "/home/christianhales/code_2025/Fas
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/torch/utils/data/sampler.py", line 165, in __init__
+    raise ValueError(
+ValueError: num_samples should be a positive integer value, but got num_samples=0
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mexp0617-3|casnet|test|exvivo|2X[0m at: [34mhttps://wandb.ai/ska-slam/CASNET/runs/fy2axd7h[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../../../tmp/wandb/run-20250313_191943-fy2axd7h/logs[0m
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ tree > output.txt
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ git remote -v
+origin	https://github.com/minipuding/FastMRT (fetch)
+origin	https://github.com/minipuding/FastMRT (push)
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ git remote add myfork https://github.com/FredJones4/FastMRT.git
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ git push myfork orign[Kin
+fatal: refs/remotes/origin/HEAD cannot be resolved to branch
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ git checkout -v[Kb dev3-9
+Switched to a new branch 'dev3-9'
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ git add .
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ git commit -am "first commit"
+[dev3-9 8003ff8] first commit
+ 12 files changed, 854 insertions(+), 13 deletions(-)
+ create mode 100644 list1.txt
+ create mode 100644 list2.txt
+ create mode 100644 output.txt
+ create mode 120000 py8env/bin/python
+ create mode 120000 py8env/bin/python3
+ create mode 120000 py8env/lib64
+ create mode 100644 py8env/pyvenv.cfg
+ create mode 100644 terminal_log.txt
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ git push myfo[K[K[K[K[K myfork dev3-9 
+Enumerating objects: 29, done.
+Counting objects:   3% (1/29)Counting objects:   6% (2/29)Counting objects:  10% (3/29)Counting objects:  13% (4/29)Counting objects:  17% (5/29)Counting objects:  20% (6/29)Counting objects:  24% (7/29)Counting objects:  27% (8/29)Counting objects:  31% (9/29)Counting objects:  34% (10/29)Counting objects:  37% (11/29)Counting objects:  41% (12/29)Counting objects:  44% (13/29)Counting objects:  48% (14/29)Counting objects:  51% (15/29)Counting objects:  55% (16/29)Counting objects:  58% (17/29)Counting objects:  62% (18/29)Counting objects:  65% (19/29)Counting objects:  68% (20/29)Counting objects:  72% (21/29)Counting objects:  75% (22/29)Counting objects:  79% (23/29)Counting objects:  82% (24/29)Counting objects:  86% (25/29)Counting objects:  89% (26/29)Counting objects:  93% (27/29)Counting objects:  96% (28/29)Counting objects: 100% (29/29)Counting objects: 100% (29/29), done.
+Delta compression using up to 20 threads
+Compressing objects:   5% (1/18)Compressing objects:  11% (2/18)Compressing objects:  16% (3/18)Compressing objects:  22% (4/18)Compressing objects:  27% (5/18)Compressing objects:  33% (6/18)Compressing objects:  38% (7/18)Compressing objects:  44% (8/18)Compressing objects:  50% (9/18)Compressing objects:  55% (10/18)Compressing objects:  61% (11/18)Compressing objects:  66% (12/18)Compressing objects:  72% (13/18)Compressing objects:  77% (14/18)Compressing objects:  83% (15/18)Compressing objects:  88% (16/18)Compressing objects:  94% (17/18)Compressing objects: 100% (18/18)Compressing objects: 100% (18/18), done.
+Writing objects:   5% (1/20)Writing objects:  10% (2
