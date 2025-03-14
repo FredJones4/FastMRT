@@ -533,4 +533,120 @@ Enumerating objects: 29, done.
 Counting objects:   3% (1/29)Counting objects:   6% (2/29)Counting objects:  10% (3/29)Counting objects:  13% (4/29)Counting objects:  17% (5/29)Counting objects:  20% (6/29)Counting objects:  24% (7/29)Counting objects:  27% (8/29)Counting objects:  31% (9/29)Counting objects:  34% (10/29)Counting objects:  37% (11/29)Counting objects:  41% (12/29)Counting objects:  44% (13/29)Counting objects:  48% (14/29)Counting objects:  51% (15/29)Counting objects:  55% (16/29)Counting objects:  58% (17/29)Counting objects:  62% (18/29)Counting objects:  65% (19/29)Counting objects:  68% (20/29)Counting objects:  72% (21/29)Counting objects:  75% (22/29)Counting objects:  79% (23/29)Counting objects:  82% (24/29)Counting objects:  86% (25/29)Counting objects:  89% (26/29)Counting objects:  93% (27/29)Counting objects:  96% (28/29)Counting objects: 100% (29/29)Counting objects: 100% (29/29), done.
 Delta compression using up to 20 threads
 Compressing objects:   5% (1/18)Compressing objects:  11% (2/18)Compressing objects:  16% (3/18)Compressing objects:  22% (4/18)Compressing objects:  27% (5/18)Compressing objects:  33% (6/18)Compressing objects:  38% (7/18)Compressing objects:  44% (8/18)Compressing objects:  50% (9/18)Compressing objects:  55% (10/18)Compressing objects:  61% (11/18)Compressing objects:  66% (12/18)Compressing objects:  72% (13/18)Compressing objects:  77% (14/18)Compressing objects:  83% (15/18)Compressing objects:  88% (16/18)Compressing objects:  94% (17/18)Compressing objects: 100% (18/18)Compressing objects: 100% (18/18), done.
-Writing objects:   5% (1/20)Writing objects:  10% (2
+Writing objects:   5% (1/20)Writing objects:  10% (2/20)Writing objects:  15% (3/20)Writing objects:  20% (4/20)Writing objects:  25% (5/20)Writing objects:  30% (6/20)Writing objects:  35% (7/20)Writing objects:  40% (8/20)Writing objects:  45% (9/20)Writing objects:  55% (11/20)Writing objects:  60% (12/20)Writing objects:  65% (13/20)Writing objects:  70% (14/20)Writing objects:  75% (15/20)Writing objects:  80% (16/20)Writing objects:  85% (17/20)Writing objects:  90% (18/20)Writing objects:  95% (19/20)Writing objects: 100% (20/20)Writing objects: 100% (20/20), 9.94 KiB | 1.66 MiB/s, done.
+Total 20 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/9)[Kremote: Resolving deltas:  11% (1/9)[Kremote: Resolving deltas:  22% (2/9)[Kremote: Resolving deltas:  33% (3/9)[Kremote: Resolving deltas:  44% (4/9)[Kremote: Resolving deltas:  55% (5/9)[Kremote: Resolving deltas:  66% (6/9)[Kremote: Resolving deltas:  77% (7/9)[Kremote: Resolving deltas:  88% (8/9)[Kremote: Resolving deltas: 100% (9/9)[Kremote: Resolving deltas: 100% (9/9), completed with 8 local objects.[K
+remote: 
+remote: Create a pull request for 'dev3-9' on GitHub by visiting:[K
+remote:      https://github.com/FredJones4/FastMRT/pull/new/dev3-9[K
+remote: 
+To https://github.com/FredJones4/FastMRT.git
+ * [new branch]      dev3-9 -> dev3-9
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ g it a[K[K[K[K[Kit add .
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ git commit -am "lazy add of fork push  instructions"
+[dev3-9 e957c9b] lazy add of fork push instructions
+ 2 files changed, 92 insertions(+), 1 deletion(-)
+ create mode 100644 how_to_fork_here.md
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ gitp ush[K[K[K[K[K push
+fatal: The current branch dev3-9 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin dev3-9
+
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ git push --set-upstream origin dev3-9
+remote: Permission to minipuding/FastMRT.git denied to FredJones4.
+fatal: unable to access 'https://github.com/minipuding/FastMRT/': The requested URL returned error: 403
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ git push --set-upstream origin dev3-9[Kcommit -am "lazy add of fork push instructions"[A(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ [C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C n[Kmyfork
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+Delta compression using up to 20 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1.96 KiB | 1004.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/FredJones4/FastMRT.git
+   8003ff8..e957c9b  dev3-9 -> dev3-9
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ [K(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ ^C
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ /home/christianhales/code_2025/FastMRT/.venv/bin/python /home/christianhales/code_2025/FastMRT/fastmrt/pretrain/mri_data.py
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ /home/christianhales/code_2025/FastMRT/.venv/bin/python /home/christianhales/code_2025/FastMRT/fastmrt/pretrain/mri_data.py[A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm[Kpython main.py --net zf --stage r est
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[34m[1mwandb[0m: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+[34m[1mwandb[0m: Currently logged in as: [33mcmhales[0m ([33mska-slam[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+[34m[1mwandb[0m: [33mWARNING[0m Path ./logs/wandb/ wasn't writable, using system temp directory.
+[34m[1mwandb[0m: Tracking run with wandb version 0.19.8
+[34m[1mwandb[0m: Run data is saved locally in [35m[1m/tmp/wandb/run-20250313_200204-6q004y07[0m
+[34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+[34m[1mwandb[0m: Syncing run [33mexp0617-1|zf|test|exvivo|2X[0m
+[34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/ska-slam/ZF[0m
+[34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/ska-slam/ZF/runs/6q004y07[0m
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mexp0617-1|zf|test|exvivo|2X[0m at: [34mhttps://wandb.ai/ska-slam/ZF/runs/6q004y07[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../../../tmp/wandb/run-20250313_200204-6q004y07/logs[0m
+(.venv) ]0;christianhales@N-MB164-SERVER: ~/code_2025/FastMRT[01;32mchristianhales@N-MB164-SERVER[00m:[01;34m~/code_2025/FastMRT[00m$ python main.py --net runet --stat [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kg[Kag e tru[K[Krain
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.Conv2d'>.
+[INFO] Register count_normalization() for <class 'torch.nn.modules.batchnorm.BatchNorm2d'>.
+[INFO] Register count_relu() for <class 'torch.nn.modules.activation.LeakyReLU'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.container.Sequential'>.
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.ConvTranspose2d'>.
+[34m[1mwandb[0m: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+[34m[1mwandb[0m: Currently logged in as: [33mcmhales[0m ([33mska-slam[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+[34m[1mwandb[0m: [33mWARNING[0m Path ./logs/wandb/ wasn't writable, using system temp directory.
+[34m[1mwandb[0m: Tracking run with wandb version 0.19.8
+[34m[1mwandb[0m: Run data is saved locally in [35m[1m/tmp/wandb/run-20250313_200554-7rg48tgx[0m
+[34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+[34m[1mwandb[0m: Syncing run [33mexp0626-1|runet|train-test|phantom|4X|dl_alpha=0.8[0m
+[34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/ska-slam/RUNET[0m
+[34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/ska-slam/RUNET/runs/7rg48tgx[0m
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+
+  | Name  | Type | Params | Mode 
+---------------------------------------
+0 | model | Unet | 7.7 M  | train
+---------------------------------------
+7.7 M     Trainable params
+0         Non-trainable params
+7.7 M     Total params
+30.960    Total estimated model params size (MB)
+117       Modules in train mode
+0         Modules in eval mode
+/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/utilities/data.py:106: Total length of `DataLoader` across ranks is zero. Please make sure this was your intention.
+Traceback (most recent call last):
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 376, in <module>
+    runner.run()
+  File "/home/christianhales/code_2025/FastMRT/main.py", line 237, in run
+    self.trainer.fit(self.model_module, datamodule=self.data_module)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 539, in fit
+    call._call_and_handle_interrupt(
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 47, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 575, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 982, in _run
+    results = self._run_stage()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1026, in _run_stage
+    self.fit_loop.run()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/loops/fit_loop.py", line 208, in run
+    self.setup_data()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/loops/fit_loop.py", line 237, in setup_data
+    train_dataloader = _request_dataloader(source)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 326, in _request_dataloader
+    return data_source.dataloader()
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 293, in dataloader
+    return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+  File "/home/christianhales/code_2025/FastMRT/.venv/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 193, in _call_lightning_datamodule_hook
+    return fn(*args, **kwargs)
+  File "/home/christianhales/code_2025/FastMRT/fastmrt/modules/data_module.py", line 41, in train_dataloader
+    return self._create_dataloader(stage='train', transform=self.train_transform)
+  File

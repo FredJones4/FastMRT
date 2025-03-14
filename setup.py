@@ -6,7 +6,7 @@ setup(
     packages=['fastmrt'],
     author='Sijie Xu',
     author_email='sijie.x@sjtu.edu.cn',
-    description='A package for accerating MR thermometry by deep learning.',
+    description='A package for accelerating MR thermometry by deep learning.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/minipuding/FastMRT',
