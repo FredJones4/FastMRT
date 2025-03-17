@@ -136,9 +136,12 @@ class BaseModule(pl.LightningModule):
         if self.is_log_media_metrics is True:
             if (self.current_epoch + 1) % self.log_images_freq == 0:
                 self._log_medias(val_logs, f"val_medias")
-    
-    def test_epoch_end(self, outputs) -> None:
+    def on_test_epoch_start(self):
+    # initialize outputs container
+        self.test_step_outputs = []
 
+    def on_test_epoch_end(self, outputs) -> None:
+        outputs = self.test_step_outputs # Chat-suggested update for 3.11
         # calculate image(amplitude) metrics
         image_metrics = self._calc_image_metrics(outputs)
 
@@ -457,6 +460,11 @@ class FastmrtModule(BaseModule):
         }
 
     def test_step(self, *args, **kwargs):
+        #def test_step(self, batch, batch_idx):
+    # output = # your existing test_step logic
+    # # append outputs
+    # self.test_step_outputs.append(output)
+    # return output
         return self.validation_step(*args, **kwargs)
 
     def predict_step(self, batch):
